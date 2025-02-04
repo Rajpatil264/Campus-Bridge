@@ -1,0 +1,41 @@
+{
+  "name": "campus_bridge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.25.3",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@heroicons/react": "^2.0.18",
+    "firebase": "^10.5.2",
+    "framer-motion": "^10.16.4",
+    "heroicons": "^2.0.18",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-firebase-hooks": "^5.1.1",
+    "react-pdf": "^7.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "file-loader": "^6.2.0",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  },
+  "resolutions": {
+    "node-fetch": "2.6.1"
+  }
+}
